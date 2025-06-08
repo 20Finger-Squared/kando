@@ -1,0 +1,273 @@
+{
+  "menus": [
+    {
+      "root": {
+        "type": "submenu",
+        "name": "New Menu",
+        "icon": "kid_star",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Apps",
+            "icon": "apps",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "blueberry",
+                  "delayed": false
+                },
+                "name": "blueberry",
+                "icon": "bluetooth",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 0
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "discord",
+                  "delayed": false
+                },
+                "name": "Discord",
+                "icon": "phone_bluetooth_speaker",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 60
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "nm-connection-editor",
+                  "delayed": false
+                },
+                "name": "wifi",
+                "icon": "wifi",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 120
+              }
+            ],
+            "angle": 120
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Directories",
+            "icon": "folder_copy",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "submenu",
+                "data": {},
+                "name": "Home",
+                "icon": "home",
+                "iconTheme": "material-symbols-rounded",
+                "children": [
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "nautilus ~/Downloads",
+                      "delayed": false
+                    },
+                    "name": "Downloads",
+                    "icon": "download",
+                    "iconTheme": "material-symbols-rounded",
+                    "angle": 60
+                  },
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "nautilus ~/Pictures",
+                      "delayed": false
+                    },
+                    "name": "Pictures",
+                    "icon": "photo",
+                    "iconTheme": "material-symbols-rounded",
+                    "angle": 120
+                  },
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "nautilus ~/Videos",
+                      "delayed": false
+                    },
+                    "name": "Videos",
+                    "icon": "video_file",
+                    "iconTheme": "material-symbols-rounded",
+                    "angle": 180
+                  },
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "nautilus ~/.config",
+                      "delayed": false
+                    },
+                    "name": "config",
+                    "icon": "settings",
+                    "iconTheme": "material-symbols-rounded",
+                    "angle": 240
+                  }
+                ],
+                "angle": 120
+              },
+              {
+                "type": "submenu",
+                "data": {},
+                "name": "Documents",
+                "icon": "folder",
+                "iconTheme": "material-symbols-rounded",
+                "children": [
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "nautilus ~/Documents/apps",
+                      "delayed": false
+                    },
+                    "name": "apps",
+                    "icon": "select_window",
+                    "iconTheme": "material-symbols-rounded",
+                    "angle": 180
+                  },
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "nautilus ~/Documents/emulation",
+                      "delayed": false
+                    },
+                    "name": "emulation",
+                    "icon": "gamepad",
+                    "iconTheme": "material-symbols-rounded",
+                    "angle": 240
+                  },
+                  {
+                    "type": "command",
+                    "data": {
+                      "command": "nautilus ~/Documents/work",
+                      "delayed": false
+                    },
+                    "name": "Work",
+                    "icon": "work",
+                    "iconTheme": "material-symbols-rounded",
+                    "angle": 300
+                  }
+                ],
+                "angle": 240
+              }
+            ],
+            "angle": 180
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Audio",
+            "icon": "volume_up",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "playerctl play",
+                  "delayed": false
+                },
+                "name": "Play",
+                "icon": "play_arrow",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 0
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "playerctl pause",
+                  "delayed": false
+                },
+                "name": "Pause",
+                "icon": "pause",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 180
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "playerctl previous",
+                  "delayed": false
+                },
+                "name": "Previous",
+                "icon": "skip_previous",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "playerctl next",
+                  "delayed": false
+                },
+                "name": "Next",
+                "icon": "skip_next",
+                "iconTheme": "material-symbols-rounded"
+              }
+            ],
+            "angle": 240
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Links",
+            "icon": "link",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://duckduckgo.com"
+                },
+                "name": "duckduckgo",
+                "icon": "shield",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 0
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://youtube.com"
+                },
+                "name": "Youtube",
+                "icon": "youtube_activity",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 60
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://wiki.archlinux.org/title/Main_page"
+                },
+                "name": "arch",
+                "icon": "search",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 240
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://wikipedia.com"
+                },
+                "name": "wiki",
+                "icon": "public",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 360
+              }
+            ],
+            "angle": 360
+          }
+        ]
+      },
+      "shortcut": "",
+      "shortcutID": "shortcuts",
+      "centered": false,
+      "warpMouse": false,
+      "anchored": false,
+      "hoverMode": false
+    }
+  ],
+  "templates": []
+}

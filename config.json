@@ -1,0 +1,45 @@
+{
+  "locale": "auto",
+  "menuTheme": "hexperiment",
+  "darkMenuTheme": "default",
+  "menuThemeColors": {
+    "hexperiment": {
+      "background-color": "rgba(40, 40, 40, 1)",
+      "glow-color": "rgba(214, 93, 14, 1)",
+      "line-color": "rgba(215, 153, 33, 1)",
+      "text-color": "rgba(168, 153, 132, 1)",
+      "hover-color": "rgba(250, 189, 47, 1)"
+    }
+  },
+  "darkMenuThemeColors": {},
+  "enableDarkModeForMenuThemes": false,
+  "soundTheme": "none",
+  "soundVolume": 0.5,
+  "sidebarVisible": false,
+  "ignoreWriteProtectedConfigFiles": false,
+  "trayIconFlavor": "color",
+  "enableVersionCheck": true,
+  "zoomFactor": 1,
+  "menuOptions": {
+    "centerDeadZone": 50,
+    "minParentDistance": 150,
+    "dragThreshold": 15,
+    "fadeInDuration": 150,
+    "fadeOutDuration": 200,
+    "enableMarkingMode": true,
+    "enableTurboMode": true,
+    "hoverModeNeedsConfirmation": false,
+    "gestureMinStrokeLength": 150,
+    "gestureMinStrokeAngle": 20,
+    "gestureJitterThreshold": 10,
+    "gesturePauseTimeout": 100,
+    "fixedStrokeLength": 0,
+    "rmbSelectsParent": false,
+    "gamepadBackButton": 1,
+    "gamepadCloseButton": 2
+  },
+  "editorOptions": {
+    "showSidebarButtonVisible": true,
+    "showEditorButtonVisible": true
+  }
+}
